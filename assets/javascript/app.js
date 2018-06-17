@@ -161,10 +161,10 @@ function gameTimer() {
 
 //timer object
 var timer = {
-    time: 10,
+    time: 30,
   
     reset: function() {
-      timer.time = 10;
+      timer.time = 30;
       $("#timer").text("00:30");
     },
 
